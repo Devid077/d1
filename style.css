@@ -2,3 +2,13 @@ h1{
     background-color: pink;
     color: black;
 }
+
+.love{
+    background-color: red;
+    color: orange;
+}
+
+.heart{
+    weight: 100px;
+    height: 100px;
+}
