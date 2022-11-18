@@ -1,14 +1,67 @@
-h1{
-    background-color: pink;
-    color: black;
-}
-
 .love{
     background-color: red;
     color: orange;
+    width: 500px;
 }
 
-.heart{
-    weight: 100px;
+.image {
+    margin:40px 0 0 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+.contentb {
+    border-style: dotted;
+    border-radius: 10px;
+    border-width: 20px;
+    weight: 20px;
     height: 100px;
+    size: 100px;
+    color: orange;
+}
+
+.border {
+    border-style: inset;
+    border-radius: 10px;
+    border-width: 20px;
+}
+
+.hameleon{
+    background-color: #3c4458;
+}
+
+.text{
+    background-color: pink;
+    color: black;
+    width: 500px;
+}
+
+.stixb{
+    border-style: solid;
+    border-radius: 0px;
+    border-width: 2px;
+    width: 450px;
+    height: 230px;
+    border-color: red;
+    border-padding-left: 10px;
+    padding-right: 0px;
+    margin-left: 42%
+}
+
+.kolya{
+    width: 100px;
+    height: 230px;
 }
