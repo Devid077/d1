@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: aqua;
+}
 .love{
     background-color: red;
     color: orange;
@@ -54,14 +58,35 @@
     border-radius: 0px;
     border-width: 2px;
     width: 450px;
-    height: 230px;
-    border-color: red;
+    height: 235px;
+    border-color: rgb(255, 0, 0);
     border-padding-left: 10px;
     padding-right: 0px;
-    margin-left: 42%
+    margin-left: 40%;
 }
 
 .kolya{
-    width: 100px;
-    height: 230px;
+    align-content: right;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.content {
+    background-color: #ffffff85;
+    margin: 2%;
+    padding: 5px 10px;
+}
+
+.textstix{
+    text-align: center;
+    margin-right: 30%;
+
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.textright{
+    text-align: right;
 }
