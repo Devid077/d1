@@ -2,7 +2,7 @@
 <html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Жизнь Коли</title>
+    <title>Колю ебут в Жопу</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body bakcgraundcolor="hameleon" class="border">
